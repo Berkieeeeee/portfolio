@@ -7,18 +7,7 @@ body, html {
     scroll-behavior: smooth;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom right, #1c1c1e, #3a3a3c); /* Donkergrijs naar middenblauw */
-    color: white;
-    text-align: center;
-    overflow: hidden;
-}
-
-.section {
+.container, .section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +16,20 @@ body, html {
     text-align: center;
 }
 
-.section:nth-child(odd) {
-    background: linear-gradient(to bottom right, #1c1c1e, #3a3a3c); /* Donkergrijs naar middenblauw */
+#home {
+    background-color: #1c3b5a; /* Donkerblauw */
 }
 
-.section:nth-child(even) {
-    background: linear-gradient(to bottom right, #dfe6e9, #b2bec3); /* Lichtgrijs naar lichtblauw */
+#about {
+    background-color: #2b5d84; /* Middelblauw */
+}
+
+#projects {
+    background-color: #3c7faf; /* Lichtblauw */
+}
+
+#contact {
+    background-color: #4dbf91; /* Lichtgroen */
 }
 
 h1, h2 {
