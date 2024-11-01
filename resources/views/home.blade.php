@@ -10,10 +10,10 @@
 <body>
     <!-- Navigatiebalk -->
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">Over Mij</a>
-        <a href="#projects">Projecten</a>
-        <a href="#contact">Contact</a>
+        <a href="home">Home</a>
+        <a href="about">Over Mij</a>
+        <a href="projects">Projecten</a>
+        <a href="contact">Contact</a>
     </div>
 
     <!-- Secties -->
@@ -21,7 +21,7 @@
         <div class="content">
             <h1>Welkom bij mijn Portfolio</h1>
             <p>Ik ben Berk Sonmez, een gepassioneerde softwareontwikkelaar met ervaring in Laravel, Flutter, en meer.</p>
-            <a href="#projects" class="btn">Bekijk mijn projecten</a>
+            <a href="projects" class="btn">Bekijk mijn projecten</a>
         </div>
     </div>
 
