@@ -4,10 +4,21 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #333;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Zorgt voor een soepele scroll-animatie */
 }
 
-.container, .section {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,20 +27,12 @@ body, html {
     text-align: center;
 }
 
-#home {
-    background-color: #1c3b5a; /* Donkerblauw */
+.section:nth-child(odd) {
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
 }
 
-#about {
-    background-color: #2b5d84; /* Middelblauw */
-}
-
-#projects {
-    background-color: #3c7faf; /* Lichtblauw */
-}
-
-#contact {
-    background-color: #4dbf91; /* Lichtgroen */
+.section:nth-child(even) {
+    background: linear-gradient(to bottom right, #3a6186, #89253e);
 }
 
 h1, h2 {
@@ -46,7 +49,7 @@ p {
 
 /* Knoop stijl en animaties */
 .btn {
-    background-color: #3b82f6; /* Koningsblauw */
+    background-color: #3b82f6;
     padding: 12px 25px;
     font-size: 1rem;
     color: white;
@@ -57,7 +60,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #2563eb; /* Donkerder koningsblauw voor hover */
+    background-color: #2563eb;
 }
 
 .navbar {
