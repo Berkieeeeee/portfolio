@@ -6,31 +6,32 @@ body, html {
     scroll-behavior: smooth; 
 }
 
-.container, .section {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     color: white;
     text-align: center;
-    overflow: hidden;
 }
 
-
-#home {
-    background-color: #3a6186; 
+.section:nth-child(odd) {
+    background: linear-gradient(to bottom right, #89253e, #3a6186);
 }
 
-#about {
-    background-color: #2a5298; 
-}
-
-#projects {
-    background-color: #3a6186; 
-}
-
-#contact {
-    background-color: #4a90e2; 
+.section:nth-child(even) {
+    background: linear-gradient(to bottom right, #3a6186, #89253e);
 }
 
 h1, h2 {
