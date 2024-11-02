@@ -90,12 +90,6 @@
                 link: "",
                 loading: true 
             },
-            {
-                title: "", 
-                description: "",
-                link: "",
-                loading: true 
-            }
         ];
 
         let currentIndex = 0;
@@ -107,7 +101,7 @@
             if (projects[index].loading) {
                 projectDisplay.innerHTML = `
                     <div class="spinner"></div>
-                    <p>Project loading...</p>
+                    <p>Projects loading...</p>
                 `;
             } else {
                 projectDisplay.innerHTML = `
