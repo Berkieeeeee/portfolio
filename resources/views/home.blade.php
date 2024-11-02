@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
-    <!-- Navigatiebalk -->
     <div class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">Over Mij</a>
         <a href="#projects">Projecten</a>
         <a href="#contact">Contact</a>
     </div>
-
-    <!-- Secties -->
     <div id="home" class="section">
         <div class="content">
             <h1>Welkom bij mijn Portfolio</h1>
@@ -51,6 +48,19 @@
             <a href="mailto:berkgazi2006@gmail.com" class="btn">Stuur een bericht</a>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Berk Sonmez. Alle rechten voorbehouden.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/je-linkedin-url" target="_blank">LinkedIn</a>
+                <a href="https://github.com/je-github-url" target="_blank">GitHub</a>
+                <a href="https://twitter.com/je-twitter-url" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
     <script>
         window.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
