@@ -37,8 +37,8 @@
         <p>Hier zijn enkele van mijn projecten die ik heb gemaakt met behulp van Laravel, Flutter, en andere technologieën.</p>
 
         <div class="project">
-            <h3>Laravel Project Naam</h3>
-            <p>Een beschrijving van het project waarin je uitlegt wat het project doet, welke technologieën je hebt gebruikt, en wat jouw rol was.</p>
+            <h3>SummaMove</h3>
+            <p>Het SummaMove-project is een web applicatie ontwikkeld om studenten van Summa College te stimuleren meer te bewegen, met functies zoals het bekijken van oefeningen, het volgen van prestaties en gebruikersregistratie. De app bevat ook een beheersysteem voor administrators om oefeningen en gebruikers te beheren.</p>
             <a href="https://summamove.berksonmez.nl" target="_blank" class="btn">Bekijk project</a>
         </div>
     </div>
@@ -51,8 +51,6 @@
             <a href="mailto:berkgazi2006@gmail.com" class="btn">Stuur een bericht</a>
         </div>
     </div>
-
-    <!-- JavaScript voor scroll-effecten op de navbar -->
     <script>
         window.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
