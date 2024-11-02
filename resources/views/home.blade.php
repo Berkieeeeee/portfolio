@@ -9,7 +9,7 @@
 <body>
     <!-- Navigatiebalk -->
     <div class="navbar">
-        <a href="#home">Home</a>
+        <a href="#home" class="active">Home</a>
         <a href="#about">Over Mij</a>
         <a href="#projects">Projecten</a>
         <a href="#contact">Contact</a>
@@ -45,5 +45,17 @@
             <a href="mailto:berkgazi2006@gmail.com" class="btn">Stuur een bericht</a>
         </div>
     </div>
+
+    <!-- JavaScript voor scroll-effecten op de navbar -->
+    <script>
+        window.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
 </body>
 </html>
