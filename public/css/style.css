@@ -95,11 +95,6 @@ p {
     text-decoration: none;
 }
 
-/* Actieve linkstijl */
-.navbar a.active {
-    background-color: #3b82f6;
-    color: white;
-}
 
 /* Smooth scroll voor de overgang naar secties */
 html {
