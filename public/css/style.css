@@ -27,7 +27,7 @@ body, html {
 
 
 .section:nth-child(odd) {
-    background: linear-gradient(to bottom right, #27496d, #4397c4); 
+    background: linear-gradient(to bottom right, #4ea3d1, #406a97); 
 }
 
 .section:nth-child(even) {
