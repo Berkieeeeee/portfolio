@@ -11,8 +11,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
-    color: white;
+    background: linear-gradient(to bottom right, #1a3d5c, #306b94); 
     text-align: center;
     overflow: hidden;
 }
@@ -26,12 +25,13 @@ body, html {
     text-align: center;
 }
 
+
 .section:nth-child(odd) {
-    background: linear-gradient(to bottom right, #89253e, #3a6186);
+    background: linear-gradient(to bottom right, #27496d, #4397c4); 
 }
 
 .section:nth-child(even) {
-    background: linear-gradient(to bottom right, #3a6186, #89253e);
+    background: linear-gradient(to bottom right, #2e8b92, #61b7ba); 
 }
 
 h1, h2 {
