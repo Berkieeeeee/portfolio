@@ -29,17 +29,27 @@
     </div>
 
     <div id="projects" class="section">
-    <div class="content">
-        <h2>Projecten</h2>
+<div class="content">
+    <h2>Projecten</h2>
         <p>Hier zijn enkele van mijn projecten die ik heb gemaakt met behulp van Laravel, Flutter, en andere technologieën.</p>
 
-        <div class="project">
-            <h3>SummaMove</h3>
-            <p>Het SummaMove-project is een web applicatie ontwikkeld om studenten van Summa College te stimuleren meer te bewegen, met functies zoals het bekijken van oefeningen, het volgen van prestaties en gebruikersregistratie. De app bevat ook een beheersysteem voor administrators om oefeningen en gebruikers te beheren.</p>
-            <a href="https://summamove.berksonmez.nl" target="_blank" class="btn">Bekijk project</a>
+        <div class="project-slider">
+            <!-- Left Arrow -->
+            <span class="arrow left-arrow" onclick="prevProject()">&#10094;</span>
+
+            <!-- Project Display Area -->
+            <div class="project" id="project-display">
+                <h3>SummaMove</h3>
+                <p>Het SummaMove-project is een web applicatie ontwikkeld om studenten van Summa College te stimuleren meer te bewegen...</p>
+                <a href="https://summamove.berksonmez.nl" target="_blank" class="btn">Bekijk project</a>
+            </div>
+
+            <!-- Right Arrow -->
+            <span class="arrow right-arrow" onclick="nextProject()">&#10095;</span>
         </div>
     </div>
 </div>
+
 
     <div id="contact" class="section">
         <div class="content">
@@ -70,6 +80,48 @@
                 navbar.classList.remove("scrolled");
             }
         });
+
+          // Array of projects
+    const projects = [
+        {
+            title: "SummaMove",
+            description: "Het SummaMove-project is een web applicatie ontwikkeld om studenten van Summa College te stimuleren meer te bewegen...",
+            link: "https://summamove.berksonmez.nl"
+        },
+        {
+            title: "Project 2",
+            description: "Beschrijving van Project 2.",
+            link: "https://example.com/project2"
+        },
+        {
+            title: "Project 3",
+            description: "Beschrijving van Project 3.",
+            link: "https://example.com/project3"
+        }
+    ];
+
+    let currentIndex = 0;
+
+    function displayProject(index) {
+        const projectDisplay = document.getElementById("project-display");
+        projectDisplay.innerHTML = `
+            <h3>${projects[index].title}</h3>
+            <p>${projects[index].description}</p>
+            <a href="${projects[index].link}" target="_blank" class="btn">Bekijk project</a>
+        `;
+    }
+
+    function nextProject() {
+        currentIndex = (currentIndex + 1) % projects.length;
+        displayProject(currentIndex);
+    }
+
+    function prevProject() {
+        currentIndex = (currentIndex - 1 + projects.length) % projects.length;
+        displayProject(currentIndex);
+    }
+
+    displayProject(currentIndex);
     </script>
 </body>
 </html>
