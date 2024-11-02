@@ -1,4 +1,3 @@
-
 body, html {
     margin: 0;
     padding: 0;
@@ -19,19 +18,20 @@ body, html {
 
 
 #home {
-    background: linear-gradient(to bottom right, #1e3c72, #2a5298); 
+    background-color: #3a6186; 
 }
 
 #about {
-    background: linear-gradient(to bottom right, #3a6186, #89253e); 
+    background-color: #2a5298; 
 }
 
 #projects {
-    background: linear-gradient(to bottom right, #1c92d2, #f2fcfe); 
+    background-color: #3a6186; 
 }
 
 #contact {
-    background: linear-gradient(to bottom right, #11998e, #38ef7d); 
+    background-color: #4a90e2; 
+}
 
 h1, h2 {
     font-size: 3rem;
@@ -44,7 +44,6 @@ p {
     margin: 20px auto;
     line-height: 1.5;
 }
-
 
 .btn {
     background-color: #3b82f6;
