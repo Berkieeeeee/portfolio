@@ -31,7 +31,7 @@ body, html {
 }
 
 .section:nth-child(even) {
-    background: linear-gradient(to bottom right, #2e8b92, #61b7ba); 
+    background: linear-gradient(to bottom right, #406a97, #4ea3d1); 
 }
 
 h1, h2 {
