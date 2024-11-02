@@ -55,13 +55,13 @@
         <div class="footer-content">
             <p>&copy; 2024 Berk Sonmez. Alle rechten voorbehouden.</p>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/je-linkedin-url" target="_blank">
+                <a href="https://www.linkedin.com/in/berk-sonmez-270382287/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/je-github-url" target="_blank">
+                <a href="https://github.com/Berkieeeeee" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://twitter.com/je-twitter-url" target="_blank">
+                <a href="https://x.com/BerkGazi21" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
             </div>
