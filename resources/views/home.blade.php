@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Berk Sonmez</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMPt7v37j5TM8xqBLUR1kKz5x6yqDiNfXa/JH4q" crossorigin="anonymous">
 </head>
 <body>
     <div class="navbar">
@@ -50,24 +49,17 @@
         </div>
     </div>
 
-   <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <p>&copy; 2024 Berk Sonmez. Alle rechten voorbehouden.</p>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/berk-sonmez-270382287/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Berkieeeeee" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://x.com/BerkGazi21" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
+                <a href="https://www.linkedin.com/in/berk-sonmez-270382287/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Berkieeeeee" target="_blank">GitHub</a>
+                <a href="https://x.com/BerkGazi21" target="_blank">Twitter</a>
             </div>
         </div>
     </footer>
-
 
     <script>
         window.addEventListener("scroll", function() {
