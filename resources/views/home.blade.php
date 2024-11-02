@@ -32,11 +32,17 @@
     </div>
 
     <div id="projects" class="section">
-        <div class="content">
-            <h2>Projecten</h2>
-            <p>Hier zijn enkele van mijn projecten die ik heb gemaakt met behulp van Laravel, Flutter, en andere technologieën.</p>
+    <div class="content">
+        <h2>Projecten</h2>
+        <p>Hier zijn enkele van mijn projecten die ik heb gemaakt met behulp van Laravel, Flutter, en andere technologieën.</p>
+
+        <div class="project">
+            <h3>Laravel Project Naam</h3>
+            <p>Een beschrijving van het project waarin je uitlegt wat het project doet, welke technologieën je hebt gebruikt, en wat jouw rol was.</p>
+            <a href="https://summamove.berksonmez.nl" target="_blank" class="btn">Bekijk project</a>
         </div>
     </div>
+</div>
 
     <div id="contact" class="section">
         <div class="content">
