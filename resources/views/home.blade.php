@@ -33,13 +33,36 @@
     <div id="skills" class="section">
         <div class="content">
             <h2>Vaardigheden</h2>
-            <ul class="skills-list">
-                <li>Laravel</li>
-                <li>Flutter</li>
-                <li>JavaScript</li>
-                <li>C#</li>
-                <li>HTML & CSS</li>
-            </ul>
+            <div class="skill">
+                <p>Laravel</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;">60%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Flutter</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;">70%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Html & Css</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C#</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;">40%</div>
+                </div>
+            </div>
         </div>
     </div>
 
