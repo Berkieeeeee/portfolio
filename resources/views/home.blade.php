@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div id="skills" class="section">
+    <div id="skills" class="section-skills">
         <div class="content">
             <h2>Vaardigheden</h2>
             <div class="skill">

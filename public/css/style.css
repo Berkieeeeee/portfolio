@@ -50,8 +50,17 @@ p {
     line-height: 1.5;
     animation: fadeInUp 0.7s ease-out;
 }
+.section-skills {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
 
-/* Vaardigheden sectie styling */
+.section-skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
 .skill {
     margin: 20px 0;
 }
@@ -63,22 +72,36 @@ p {
 }
 
 .skill-bar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
+    background-color: #ddd;
+    border-radius: 10px;
     overflow: hidden;
-    height: 20px;
+    height: 30px;
     margin-top: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
+/* Styling voor de voortgangsbalk zelf */
 .skill-level {
-    background-color: #3b82f6;
+    background: linear-gradient(90deg, #4caf50, #81c784); /* van licht naar donker groen */
     height: 100%;
     text-align: right;
     padding-right: 10px;
     color: white;
     font-weight: bold;
-    border-radius: 5px;
-    transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-level::after {
+    content: attr(style);
+    position: absolute;
+    right: 10px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 
